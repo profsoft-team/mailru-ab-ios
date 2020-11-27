@@ -1,0 +1,713 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10061DB3256FBD67000FF7D6 /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10061DB1256FBD67000FF7D6 /* ContactTableViewCell.swift */; };
+		10061DB4256FBD67000FF7D6 /* ContactTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10061DB2256FBD67000FF7D6 /* ContactTableViewCell.xib */; };
+		10061DBF256FC8D6000FF7D6 /* UIColor + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10061DBE256FC8D6000FF7D6 /* UIColor + Extensions.swift */; };
+		10061DCB256FDAB4000FF7D6 /* DetailsGeneralTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10061DC9256FDAB4000FF7D6 /* DetailsGeneralTableViewCell.swift */; };
+		10061DCC256FDAB4000FF7D6 /* DetailsGeneralTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10061DCA256FDAB4000FF7D6 /* DetailsGeneralTableViewCell.xib */; };
+		10061DD0256FDBC7000FF7D6 /* AvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10061DCF256FDBC7000FF7D6 /* AvatarImageView.swift */; };
+		10061DD6256FDF9E000FF7D6 /* CellBulder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10061DD5256FDF9E000FF7D6 /* CellBulder.swift */; };
+		10061DDB256FE1A1000FF7D6 /* ContactDetailsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10061DDA256FE1A1000FF7D6 /* ContactDetailsDataSource.swift */; };
+		10061DDE256FE914000FF7D6 /* ContactDetailsScreenBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10061DDD256FE914000FF7D6 /* ContactDetailsScreenBuilder.swift */; };
+		10061DEC256FF1B6000FF7D6 /* PhoneTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10061DEA256FF1B6000FF7D6 /* PhoneTableViewCell.swift */; };
+		10061DED256FF1B6000FF7D6 /* PhoneTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10061DEB256FF1B6000FF7D6 /* PhoneTableViewCell.xib */; };
+		10061DF2257008A7000FF7D6 /* String + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10061DF1257008A7000FF7D6 /* String + Extensions.swift */; };
+		106B090E2570CF0900BF53B9 /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106B090D2570CF0900BF53B9 /* AlertHelper.swift */; };
+		10EEE9B7256F94F40020E9EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10EEE9B6256F94F40020E9EF /* AppDelegate.swift */; };
+		10EEE9C0256F94F50020E9EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10EEE9BF256F94F50020E9EF /* Assets.xcassets */; };
+		10EEE9E8256F98A00020E9EF /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10EEE9E7256F98A00020E9EF /* R.generated.swift */; };
+		10EEE9ED256F99330020E9EF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 10EEE9EB256F99330020E9EF /* Localizable.strings */; };
+		10EEE9F5256F99A20020E9EF /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10EEE9F4256F99A20020E9EF /* ContactsViewController.swift */; };
+		10EEEA09256F9A770020E9EF /* ContactsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10EEEA08256F9A770020E9EF /* ContactsViewController.storyboard */; };
+		10EEEA0E256F9AAB0020E9EF /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10EEEA0D256F9AAB0020E9EF /* BaseViewController.swift */; };
+		10EEEA14256F9BB10020E9EF /* Transformatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10EEEA13256F9BB10020E9EF /* Transformatable.swift */; };
+		10EEEA19256F9C1D0020E9EF /* ContactsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10EEEA18256F9C1D0020E9EF /* ContactsViewModel.swift */; };
+		10EEEA20256FA02D0020E9EF /* ContactDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10EEEA1F256FA02D0020E9EF /* ContactDetailsViewController.swift */; };
+		10EEEA24256FA03D0020E9EF /* ContactDetailsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10EEEA23256FA03D0020E9EF /* ContactDetailsViewController.storyboard */; };
+		10EEEA27256FA0690020E9EF /* ContactDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10EEEA26256FA0690020E9EF /* ContactDetailsViewModel.swift */; };
+		10EEEA2C256FA18A0020E9EF /* AppStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10EEEA2B256FA18A0020E9EF /* AppStep.swift */; };
+		10EEEA30256FA2A00020E9EF /* AppFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10EEEA2F256FA2A00020E9EF /* AppFlow.swift */; };
+		10EEEA34256FA2C10020E9EF /* ServiceContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10EEEA33256FA2C10020E9EF /* ServiceContainer.swift */; };
+		10EEEA38256FA35A0020E9EF /* GeneralFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10EEEA37256FA35A0020E9EF /* GeneralFlow.swift */; };
+		10EEEA3B256FA53E0020E9EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10EEEA3A256FA53E0020E9EF /* LaunchScreen.storyboard */; };
+		10EEEA3F256FA9820020E9EF /* PhoneContactsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10EEEA3E256FA9820020E9EF /* PhoneContactsService.swift */; };
+		10EEEA44256FA9E70020E9EF /* PhoneContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10EEEA43256FA9E70020E9EF /* PhoneContact.swift */; };
+		F712FF24DFF34EE73B3D1E6F /* Pods_AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F294C3DA873DD13B844C3D1 /* Pods_AddressBook.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		10061DB1256FBD67000FF7D6 /* ContactTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTableViewCell.swift; sourceTree = "<group>"; };
+		10061DB2256FBD67000FF7D6 /* ContactTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactTableViewCell.xib; sourceTree = "<group>"; };
+		10061DBE256FC8D6000FF7D6 /* UIColor + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + Extensions.swift"; sourceTree = "<group>"; };
+		10061DC9256FDAB4000FF7D6 /* DetailsGeneralTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsGeneralTableViewCell.swift; sourceTree = "<group>"; };
+		10061DCA256FDAB4000FF7D6 /* DetailsGeneralTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailsGeneralTableViewCell.xib; sourceTree = "<group>"; };
+		10061DCF256FDBC7000FF7D6 /* AvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarImageView.swift; sourceTree = "<group>"; };
+		10061DD5256FDF9E000FF7D6 /* CellBulder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellBulder.swift; sourceTree = "<group>"; };
+		10061DDA256FE1A1000FF7D6 /* ContactDetailsDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailsDataSource.swift; sourceTree = "<group>"; };
+		10061DDD256FE914000FF7D6 /* ContactDetailsScreenBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailsScreenBuilder.swift; sourceTree = "<group>"; };
+		10061DEA256FF1B6000FF7D6 /* PhoneTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneTableViewCell.swift; sourceTree = "<group>"; };
+		10061DEB256FF1B6000FF7D6 /* PhoneTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhoneTableViewCell.xib; sourceTree = "<group>"; };
+		10061DF1257008A7000FF7D6 /* String + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String + Extensions.swift"; sourceTree = "<group>"; };
+		106B090D2570CF0900BF53B9 /* AlertHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertHelper.swift; sourceTree = "<group>"; };
+		108DE0ED3103307114712492 /* Pods-AddressBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AddressBook.debug.xcconfig"; path = "Target Support Files/Pods-AddressBook/Pods-AddressBook.debug.xcconfig"; sourceTree = "<group>"; };
+		10EEE9B3256F94F40020E9EF /* AddressBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddressBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10EEE9B6256F94F40020E9EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		10EEE9BF256F94F50020E9EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10EEE9C4256F94F50020E9EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10EEE9E7256F98A00020E9EF /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
+		10EEE9EC256F99330020E9EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		10EEE9F4256F99A20020E9EF /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		10EEEA08256F9A770020E9EF /* ContactsViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ContactsViewController.storyboard; sourceTree = "<group>"; };
+		10EEEA0D256F9AAB0020E9EF /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		10EEEA13256F9BB10020E9EF /* Transformatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transformatable.swift; sourceTree = "<group>"; };
+		10EEEA18256F9C1D0020E9EF /* ContactsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewModel.swift; sourceTree = "<group>"; };
+		10EEEA1F256FA02D0020E9EF /* ContactDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailsViewController.swift; sourceTree = "<group>"; };
+		10EEEA23256FA03D0020E9EF /* ContactDetailsViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ContactDetailsViewController.storyboard; sourceTree = "<group>"; };
+		10EEEA26256FA0690020E9EF /* ContactDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailsViewModel.swift; sourceTree = "<group>"; };
+		10EEEA2B256FA18A0020E9EF /* AppStep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStep.swift; sourceTree = "<group>"; };
+		10EEEA2F256FA2A00020E9EF /* AppFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFlow.swift; sourceTree = "<group>"; };
+		10EEEA33256FA2C10020E9EF /* ServiceContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceContainer.swift; sourceTree = "<group>"; };
+		10EEEA37256FA35A0020E9EF /* GeneralFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralFlow.swift; sourceTree = "<group>"; };
+		10EEEA3A256FA53E0020E9EF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		10EEEA3E256FA9820020E9EF /* PhoneContactsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneContactsService.swift; sourceTree = "<group>"; };
+		10EEEA43256FA9E70020E9EF /* PhoneContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneContact.swift; sourceTree = "<group>"; };
+		4F294C3DA873DD13B844C3D1 /* Pods_AddressBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AddressBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC00C9D2758489EEE770A577 /* Pods-AddressBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AddressBook.release.xcconfig"; path = "Target Support Files/Pods-AddressBook/Pods-AddressBook.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10EEE9B0256F94F40020E9EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F712FF24DFF34EE73B3D1E6F /* Pods_AddressBook.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10061DAE256FBD37000FF7D6 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				10061DE8256FF17D000FF7D6 /* PhoneCell */,
+				10061DC8256FDA39000FF7D6 /* DetailsGeneralCell */,
+				10061DAF256FBD3D000FF7D6 /* ContactCell */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		10061DAF256FBD3D000FF7D6 /* ContactCell */ = {
+			isa = PBXGroup;
+			children = (
+				10061DB1256FBD67000FF7D6 /* ContactTableViewCell.swift */,
+				10061DB2256FBD67000FF7D6 /* ContactTableViewCell.xib */,
+			);
+			path = ContactCell;
+			sourceTree = "<group>";
+		};
+		10061DB8256FC64B000FF7D6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				10061DBE256FC8D6000FF7D6 /* UIColor + Extensions.swift */,
+				10061DF1257008A7000FF7D6 /* String + Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		10061DC8256FDA39000FF7D6 /* DetailsGeneralCell */ = {
+			isa = PBXGroup;
+			children = (
+				10061DC9256FDAB4000FF7D6 /* DetailsGeneralTableViewCell.swift */,
+				10061DCA256FDAB4000FF7D6 /* DetailsGeneralTableViewCell.xib */,
+			);
+			path = DetailsGeneralCell;
+			sourceTree = "<group>";
+		};
+		10061DCE256FDBB1000FF7D6 /* ImageView */ = {
+			isa = PBXGroup;
+			children = (
+				10061DCF256FDBC7000FF7D6 /* AvatarImageView.swift */,
+			);
+			path = ImageView;
+			sourceTree = "<group>";
+		};
+		10061DE8256FF17D000FF7D6 /* PhoneCell */ = {
+			isa = PBXGroup;
+			children = (
+				10061DEA256FF1B6000FF7D6 /* PhoneTableViewCell.swift */,
+				10061DEB256FF1B6000FF7D6 /* PhoneTableViewCell.xib */,
+			);
+			path = PhoneCell;
+			sourceTree = "<group>";
+		};
+		10EEE9AA256F94F40020E9EF = {
+			isa = PBXGroup;
+			children = (
+				10EEE9B5256F94F40020E9EF /* AddressBook */,
+				10EEE9B4256F94F40020E9EF /* Products */,
+				33F5EC33CEBED727A9558A05 /* Pods */,
+				3CD9F268A60E0D1083D849E9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		10EEE9B4256F94F40020E9EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10EEE9B3256F94F40020E9EF /* AddressBook.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10EEE9B5256F94F40020E9EF /* AddressBook */ = {
+			isa = PBXGroup;
+			children = (
+				10EEE9E7256F98A00020E9EF /* R.generated.swift */,
+				10EEE9DC256F96B00020E9EF /* App */,
+				10EEE9DB256F96A00020E9EF /* Resources */,
+				10EEEA29256FA1680020E9EF /* Flow */,
+				10EEEA11256F9B930020E9EF /* Helpers */,
+				10EEEA42256FA9C40020E9EF /* Models */,
+				10EEEA32256FA2B00020E9EF /* Services */,
+				10EEE9EF256F996A0020E9EF /* Modules */,
+				10EEEA0B256F9A930020E9EF /* Components */,
+			);
+			path = AddressBook;
+			sourceTree = "<group>";
+		};
+		10EEE9DB256F96A00020E9EF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				10EEE9EB256F99330020E9EF /* Localizable.strings */,
+				10EEE9BF256F94F50020E9EF /* Assets.xcassets */,
+				10EEEA3A256FA53E0020E9EF /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		10EEE9DC256F96B00020E9EF /* App */ = {
+			isa = PBXGroup;
+			children = (
+				10EEE9B6256F94F40020E9EF /* AppDelegate.swift */,
+				10EEE9C4256F94F50020E9EF /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		10EEE9EF256F996A0020E9EF /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				10EEE9F0256F99780020E9EF /* ContactsScreen */,
+				10EEEA1C256FA0040020E9EF /* ContactDetailsScreen */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		10EEE9F0256F99780020E9EF /* ContactsScreen */ = {
+			isa = PBXGroup;
+			children = (
+				10EEE9F2256F99860020E9EF /* View */,
+				10EEE9F1256F997F0020E9EF /* ViewModel */,
+			);
+			path = ContactsScreen;
+			sourceTree = "<group>";
+		};
+		10EEE9F1256F997F0020E9EF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				10EEEA18256F9C1D0020E9EF /* ContactsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		10EEE9F2256F99860020E9EF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				10EEE9F4256F99A20020E9EF /* ContactsViewController.swift */,
+				10EEEA08256F9A770020E9EF /* ContactsViewController.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		10EEEA0B256F9A930020E9EF /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				10061DAE256FBD37000FF7D6 /* Cells */,
+				10061DCE256FDBB1000FF7D6 /* ImageView */,
+				10EEEA0C256F9A9C0020E9EF /* ViewControllers */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		10EEEA0C256F9A9C0020E9EF /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				10EEEA0D256F9AAB0020E9EF /* BaseViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		10EEEA11256F9B930020E9EF /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				10061DD5256FDF9E000FF7D6 /* CellBulder.swift */,
+				106B090D2570CF0900BF53B9 /* AlertHelper.swift */,
+				10061DB8256FC64B000FF7D6 /* Extensions */,
+				10EEEA12256F9BA00020E9EF /* ViewModel */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		10EEEA12256F9BA00020E9EF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				10EEEA13256F9BB10020E9EF /* Transformatable.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		10EEEA1C256FA0040020E9EF /* ContactDetailsScreen */ = {
+			isa = PBXGroup;
+			children = (
+				10EEEA1E256FA0190020E9EF /* View */,
+				10EEEA1D256FA0130020E9EF /* ViewModel */,
+				10061DDA256FE1A1000FF7D6 /* ContactDetailsDataSource.swift */,
+				10061DDD256FE914000FF7D6 /* ContactDetailsScreenBuilder.swift */,
+			);
+			path = ContactDetailsScreen;
+			sourceTree = "<group>";
+		};
+		10EEEA1D256FA0130020E9EF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				10EEEA26256FA0690020E9EF /* ContactDetailsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		10EEEA1E256FA0190020E9EF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				10EEEA1F256FA02D0020E9EF /* ContactDetailsViewController.swift */,
+				10EEEA23256FA03D0020E9EF /* ContactDetailsViewController.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		10EEEA29256FA1680020E9EF /* Flow */ = {
+			isa = PBXGroup;
+			children = (
+				10EEEA2B256FA18A0020E9EF /* AppStep.swift */,
+				10EEEA2F256FA2A00020E9EF /* AppFlow.swift */,
+				10EEEA37256FA35A0020E9EF /* GeneralFlow.swift */,
+			);
+			path = Flow;
+			sourceTree = "<group>";
+		};
+		10EEEA32256FA2B00020E9EF /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				10EEEA3E256FA9820020E9EF /* PhoneContactsService.swift */,
+				10EEEA33256FA2C10020E9EF /* ServiceContainer.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		10EEEA42256FA9C40020E9EF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				10EEEA43256FA9E70020E9EF /* PhoneContact.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		33F5EC33CEBED727A9558A05 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				108DE0ED3103307114712492 /* Pods-AddressBook.debug.xcconfig */,
+				BC00C9D2758489EEE770A577 /* Pods-AddressBook.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3CD9F268A60E0D1083D849E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F294C3DA873DD13B844C3D1 /* Pods_AddressBook.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10EEE9B2256F94F40020E9EF /* AddressBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10EEE9C7256F94F50020E9EF /* Build configuration list for PBXNativeTarget "AddressBook" */;
+			buildPhases = (
+				CE03732E22F8B0673202245E /* [CP] Check Pods Manifest.lock */,
+				10EEE9E5256F98380020E9EF /* R */,
+				10EEE9AF256F94F40020E9EF /* Sources */,
+				10EEE9B0256F94F40020E9EF /* Frameworks */,
+				10EEE9B1256F94F40020E9EF /* Resources */,
+				884EC95CC744C1A008FFB365 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AddressBook;
+			productName = AddressBook;
+			productReference = 10EEE9B3256F94F40020E9EF /* AddressBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10EEE9AB256F94F40020E9EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					10EEE9B2256F94F40020E9EF = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 10EEE9AE256F94F40020E9EF /* Build configuration list for PBXProject "AddressBook" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10EEE9AA256F94F40020E9EF;
+			productRefGroup = 10EEE9B4256F94F40020E9EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10EEE9B2256F94F40020E9EF /* AddressBook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10EEE9B1256F94F40020E9EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10061DB4256FBD67000FF7D6 /* ContactTableViewCell.xib in Resources */,
+				10061DCC256FDAB4000FF7D6 /* DetailsGeneralTableViewCell.xib in Resources */,
+				10EEE9ED256F99330020E9EF /* Localizable.strings in Resources */,
+				10EEEA09256F9A770020E9EF /* ContactsViewController.storyboard in Resources */,
+				10061DED256FF1B6000FF7D6 /* PhoneTableViewCell.xib in Resources */,
+				10EEE9C0256F94F50020E9EF /* Assets.xcassets in Resources */,
+				10EEEA3B256FA53E0020E9EF /* LaunchScreen.storyboard in Resources */,
+				10EEEA24256FA03D0020E9EF /* ContactDetailsViewController.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10EEE9E5256F98380020E9EF /* R */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$TEMP_DIR/rswift-lastrun",
+			);
+			name = R;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				$SRCROOT/R.generated.swift,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/R.generated.swift\"\n";
+		};
+		884EC95CC744C1A008FFB365 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AddressBook/Pods-AddressBook-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AddressBook/Pods-AddressBook-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AddressBook/Pods-AddressBook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE03732E22F8B0673202245E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AddressBook-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10EEE9AF256F94F40020E9EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10EEEA34256FA2C10020E9EF /* ServiceContainer.swift in Sources */,
+				10EEEA14256F9BB10020E9EF /* Transformatable.swift in Sources */,
+				10061DEC256FF1B6000FF7D6 /* PhoneTableViewCell.swift in Sources */,
+				10EEEA2C256FA18A0020E9EF /* AppStep.swift in Sources */,
+				10061DBF256FC8D6000FF7D6 /* UIColor + Extensions.swift in Sources */,
+				10061DDE256FE914000FF7D6 /* ContactDetailsScreenBuilder.swift in Sources */,
+				10EEEA20256FA02D0020E9EF /* ContactDetailsViewController.swift in Sources */,
+				10061DCB256FDAB4000FF7D6 /* DetailsGeneralTableViewCell.swift in Sources */,
+				10061DDB256FE1A1000FF7D6 /* ContactDetailsDataSource.swift in Sources */,
+				10061DF2257008A7000FF7D6 /* String + Extensions.swift in Sources */,
+				10EEEA30256FA2A00020E9EF /* AppFlow.swift in Sources */,
+				10EEEA19256F9C1D0020E9EF /* ContactsViewModel.swift in Sources */,
+				106B090E2570CF0900BF53B9 /* AlertHelper.swift in Sources */,
+				10061DD0256FDBC7000FF7D6 /* AvatarImageView.swift in Sources */,
+				10061DB3256FBD67000FF7D6 /* ContactTableViewCell.swift in Sources */,
+				10EEEA38256FA35A0020E9EF /* GeneralFlow.swift in Sources */,
+				10EEE9B7256F94F40020E9EF /* AppDelegate.swift in Sources */,
+				10061DD6256FDF9E000FF7D6 /* CellBulder.swift in Sources */,
+				10EEEA0E256F9AAB0020E9EF /* BaseViewController.swift in Sources */,
+				10EEE9E8256F98A00020E9EF /* R.generated.swift in Sources */,
+				10EEEA27256FA0690020E9EF /* ContactDetailsViewModel.swift in Sources */,
+				10EEEA3F256FA9820020E9EF /* PhoneContactsService.swift in Sources */,
+				10EEE9F5256F99A20020E9EF /* ContactsViewController.swift in Sources */,
+				10EEEA44256FA9E70020E9EF /* PhoneContact.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		10EEE9EB256F99330020E9EF /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10EEE9EC256F99330020E9EF /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10EEE9C5256F94F50020E9EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		10EEE9C6256F94F50020E9EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10EEE9C8256F94F50020E9EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 108DE0ED3103307114712492 /* Pods-AddressBook.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P9ZG3TBQ8E;
+				INFOPLIST_FILE = AddressBook/App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.profsoft.AddressBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		10EEE9C9256F94F50020E9EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC00C9D2758489EEE770A577 /* Pods-AddressBook.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P9ZG3TBQ8E;
+				INFOPLIST_FILE = AddressBook/App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.profsoft.AddressBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10EEE9AE256F94F40020E9EF /* Build configuration list for PBXProject "AddressBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10EEE9C5256F94F50020E9EF /* Debug */,
+				10EEE9C6256F94F50020E9EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10EEE9C7256F94F50020E9EF /* Build configuration list for PBXNativeTarget "AddressBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10EEE9C8256F94F50020E9EF /* Debug */,
+				10EEE9C9256F94F50020E9EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10EEE9AB256F94F40020E9EF /* Project object */;
+}
